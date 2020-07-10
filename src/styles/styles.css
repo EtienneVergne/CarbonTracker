@@ -1,0 +1,144 @@
+body {
+  font-family: "Quattrocento Sans", sans-serif;
+  background-color: #d5ebf9;
+}
+
+#navigation {
+  background-color: rgba(128, 128, 128, 0.26);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 400px;
+}
+.logo h1 {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.menu li {
+  padding: 0 20px;
+}
+.menu li #item, .menu li #item2, .menu li #item3 {
+  color: black;
+}
+.menu li a {
+  text-decoration: none;
+}
+.menu .text-link {
+  border-bottom: 3px solid transparent;
+  transition-property: border;
+  transition-duration: 1s;
+}
+.menu .text-link:hover {
+  border-color: #4b7928;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.presentation img {
+  width: 100%;
+  margin-left: 30px;
+}
+.presentation .texte-presentation {
+  margin-left: 60px;
+  padding: 150px 20px;
+  width: 100%;
+  text-align: center;
+  margin-right: 60px;
+}
+.presentation .texte-presentation h1 {
+  font-size: 30px;
+}
+.presentation .texte-presentation p {
+  font-size: 15px;
+}
+.presentation button {
+  background-color: rgba(238, 17, 17, 0.746);
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+.calculator {
+  margin-top: 40px;
+}
+.calculator .titrecalcul {
+  display: flex;
+  justify-content: center;
+}
+.calculator .titrecalcul h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+.calculator .container {
+  margin-top: 40px;
+}
+.calculator .form_trip {
+  padding-right: 5px;
+}
+.calculator form {
+  background-color: white;
+  margin-left: 10px;
+  padding-left: 80px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-radius: 10px 100px/120px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.486);
+}
+.calculator form .icon {
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.705);
+}
+.calculator form label {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.calculator form input {
+  display: inline-block;
+  width: 70%;
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.486);
+}
+.calculator form select {
+  width: 70%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.486);
+}
+.calculator form input[type=submit] {
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.calculator .resultat {
+  padding-top: 150px;
+}
+.calculator .resultat h1, .calculator .resultat h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.articles {
+  text-align: center;
+}
+.articles h1 {
+  font-size: 25px;
+}
+.articles .covoiturage {
+  padding-top: 25px;
+}

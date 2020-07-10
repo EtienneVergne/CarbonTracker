@@ -1,0 +1,200 @@
+
+
+
+
+body{
+    font-family: 'Quattrocento Sans', sans-serif; 
+    background-color: rgb(213, 235, 249);
+    
+}
+
+#navigation{
+    background-color:rgba(128, 128, 128, 0.26);
+}
+
+.logo {
+    display:flex;
+    justify-content:space-between;
+    margin-right:400px;
+    
+    h1{
+        font-size:25px;
+        padding-top:10px;
+    }
+
+    
+    
+    
+}
+
+.menu{
+    li{
+        padding:0 20px;
+        #item, #item2,#item3 {
+            color:black;
+
+            
+        }
+
+        a{
+            text-decoration:none;
+        }
+
+       
+        
+    }
+
+    .text-link {
+        border-bottom:3px solid transparent;
+        transition-property:border;
+        transition-duration:1s;
+       
+
+       }
+
+       .text-link:hover{
+           border-color:rgb(75, 121, 40);
+       }
+    
+}
+
+.presentation {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    img{
+        width:100%;
+        margin-left:30px;
+    }
+  
+    
+    
+    .texte-presentation{
+    margin-left:60px; 
+    padding: 150px 20px;
+    width:100%;
+    text-align: center;
+    margin-right: 60px;
+        
+        h1{
+            font-size: 30px;
+               }
+
+        p {
+            font-size:15px;
+        }
+    }
+    
+   button{
+       background-color:rgba(238, 17, 17, 0.746);
+       font-size:20px;
+       border-radius: 10px;
+       border:1px solid white;
+       margin-top:10px;
+   }  
+   
+   
+
+}
+
+.calculator{
+    margin-top:40px;
+    
+
+    .titrecalcul {
+        display:flex;
+        justify-content: center;
+
+        h1{
+            text-align:center;
+            font-size:30px;
+            padding-top:15px;
+            margin-left:10px;
+        }
+    }
+
+    .container {
+        margin-top:40px;
+    }
+
+    .form_trip{
+        padding-right:5px;
+    }
+
+
+    form {
+       
+        background-color:white;
+        margin-left:10px;
+        padding-left:80px;
+        margin-right:20px;
+
+        padding-bottom:50px;
+        padding-top:50px;
+        border-radius: 10px 100px / 120px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.486);
+         .icon {
+             font-size:20px;
+             color:rgba(128, 128, 128, 0.705);
+         }
+
+        
+    }
+
+    form label {
+        display:inline-block;
+        width:100%;
+        margin-top:20px;
+        font-size:25px;
+        
+    }
+
+    form input {
+        display:inline-block;
+        width:70%;
+        border: 0px solid black;
+        border-radius: 10px;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.486);
+        
+    }
+
+    form select {
+        width:70%;
+        appearance: none;
+        border:0;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.486);
+        
+    }
+
+    form input[type=submit]{
+    margin-top:20px;
+    width:30%;
+    
+    border-radius: 10px;
+    margin-left:30px;
+    }
+
+    .resultat {
+        padding-top:150px;
+        h1,h2 {
+        font-size:25px;
+        text-align: center;
+            
+            
+        }
+    }
+
+    
+
+}
+
+.articles {
+    text-align: center;
+    h1{
+       font-size:25px;
+   }
+   .covoiturage {
+       padding-top: 25px;;
+   }
+}
