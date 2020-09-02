@@ -42,6 +42,7 @@ class CarbonCalculator extends Component {
             });
         console.log(distance)
         let dist = distance["steps"][0]["distance"]["haversine"];
+        console.log(dist);
         
         
 
@@ -62,7 +63,9 @@ class CarbonCalculator extends Component {
             });
         console.log(bilan)
 
-        this.setState({ bilan: bilan });
+        let bilanCarb = bilan["carbonEquivalent"];
+
+        this.setState({ bilan: bilanCarb });
 
 
 

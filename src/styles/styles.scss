@@ -62,17 +62,22 @@ body{
     display:flex;
     justify-content: space-between;
     margin-top: 20px;
+    
+    .image_presentation{
 
+        margin-top: 50px;
     img{
         width:100%;
         margin-left:30px;
+    }
+
     }
   
     
     
     .texte-presentation{
     margin-left:60px; 
-    padding: 150px 20px;
+    padding: 80px 20px;
     width:100%;
     text-align: center;
     margin-right: 60px;
