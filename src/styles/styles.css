@@ -61,11 +61,12 @@ body {
   font-size: 15px;
 }
 .presentation button {
-  background-color: rgba(238, 17, 17, 0.746);
+  background-color: #c4d2db;
   font-size: 20px;
   border-radius: 10px;
   border: 1px solid white;
   margin-top: 10px;
+  box-shadow: 3px 3px 2px #aaa;
 }
 
 .calculator {
@@ -90,7 +91,8 @@ body {
 .calculator form {
   background-color: white;
   margin-left: 10px;
-  padding-left: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-right: 20px;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -111,7 +113,8 @@ body {
   display: inline-block;
   width: 70%;
   border: 0px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding-left: 3px;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.486);
 }
 .calculator form select {
@@ -124,12 +127,15 @@ body {
 }
 .calculator form input[type=submit] {
   margin-top: 20px;
-  width: 30%;
+  width: 50%;
   border-radius: 10px;
   margin-left: 30px;
 }
 .calculator .resultat {
   padding-top: 150px;
+}
+.calculator .resultat .noresult {
+  display: none;
 }
 .calculator .resultat h1, .calculator .resultat h2 {
   font-size: 25px;
@@ -142,6 +148,40 @@ body {
 .articles h1 {
   font-size: 25px;
 }
-.articles .covoiturage {
-  padding-top: 25px;
+.articles .titre_articles {
+  display: flex;
+  justify-content: center;
+}
+.articles .titre_articles h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+.articles .textes {
+  margin-top: 50px;
+}
+.articles .textes p {
+  margin-top: 10px;
+}
+.articles .train, .articles .covoiturage, .articles .flygskam {
+  display: flex;
+  flex-direction: column;
+}
+.articles .train img, .articles .covoiturage img, .articles .flygskam img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) and (min-width: 720px) {
+  form select {
+    width: 150px;
+  }
+
+  form option {
+    overflow: auto;
+  }
+
+  form input[type=submit] {
+    overflow: auto;
+  }
 }

@@ -63,9 +63,10 @@ class CarbonCalculator extends Component {
             });
         console.log(bilan)
 
-        let bilanCarb = bilan["carbonEquivalent"];
+        let bilanCarb = Math.round(bilan["carbonEquivalent"]);
 
         this.setState({ bilan: bilanCarb });
+        this.setState({bilanDone:true});
 
 
 
@@ -130,7 +131,7 @@ class CarbonCalculator extends Component {
 
                         <div className="col-md resultat">
                             <h1><FontAwesomeIcon className="icon" icon="smog" /> Bilan carbone de ton voyage:</h1>
-                            <div className="result">
+                            <div  className= {this.state.bilanDone? "result" : "noresult"} >
                                 <h2>{this.state.bilan}kg/CO2 émis au cours de ton trajet</h2>
                             </div>
 
